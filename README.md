@@ -4,7 +4,9 @@
 ### Objectifs du lab
 
 -Comprendre comment les apps Android détectent le root (Java et natif).
+
 -Utiliser Frida pour neutraliser ces détections via des hooks Java et, si nécessaire, natifs.
+
 -Lancer l’app cible sous Frida, vérifier que la détection est contournée, et diagnostiquer les échecs.
 
 > **Avertissement éthique** : ces techniques sont réservées à un cadre d'audit autorisé ou d'exercice pédagogique officiel.
