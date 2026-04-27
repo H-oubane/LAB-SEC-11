@@ -164,7 +164,16 @@ Java.perform(function () {
 ---
 <img width="1600" height="811" alt="image" src="https://github.com/user-attachments/assets/abc9a986-8652-4f9d-9ed5-4b3ee0b40120" />
 
-### Étape 9 — Lancer l'application avec Frida
+### Étape 9 — Lancer l'application sans Frida 
+```bash
+ adb shell am start -n owasp.mstg.uncrackable1/sg.vantagepoint.uncrackable1.MainActivity
+```
+
+---
+<img width="1600" height="857" alt="image" src="https://github.com/user-attachments/assets/af6356dd-3de1-453a-846f-3f117efb6fae" />
+
+
+### Étape 10 — Lancer l'application avec Frida
 
 ```bash
 frida -U -f owasp.mstg.uncrackable1 -l bypass_uncrackable.js 
@@ -178,7 +187,7 @@ Console Frida :
 ---
 <img width="1600" height="810" alt="image" src="https://github.com/user-attachments/assets/63c05fc0-c344-48c4-a29a-18fc03a4d0a8" />
 
-### Étape 10 — Extraire le mot de passe depuis la console Frida
+### Étape 11 — Extraire le mot de passe depuis la console Frida
 
 Coller directement dans la console Frida :
 
@@ -199,7 +208,7 @@ Résultat dans la console :
 ---
 <img width="1600" height="810" alt="image" src="https://github.com/user-attachments/assets/8317a10e-5dcc-4358-89fa-9c5305c61f1a" />
 
-### Étape 11 — Validation
+### Étape 12 — Validation
 
 Entrer `I want to believe` dans le champ de l'application et cliquer **VERIFY**.
 
