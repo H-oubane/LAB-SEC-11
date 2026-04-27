@@ -116,8 +116,12 @@ Classes identifiées :
 | `sg.vantagepoint.a.b` | Détection debug |
 | `sg.vantagepoint.uncrackable1.a` | Vérification du mot de passe (AES/ECB) |
 | `sg.vantagepoint.uncrackable1.MainActivity` | Activité principale |
+---
+
 
 <img width="1366" height="732" alt="image" src="https://github.com/user-attachments/assets/e5cc78c2-75aa-4ac3-86a1-ee464c4d2650" />
+
+---
 
 
 Code clé trouvé dans `sg.vantagepoint.uncrackable1.a` :
